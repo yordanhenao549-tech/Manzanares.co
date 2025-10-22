@@ -1,0 +1,175 @@
+/* ==== ESTILOS GENERALES ==== */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* ==== NAVBAR ==== */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #005f73, #0a9396);
+  color: white;
+  padding: 15px 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #ffd166;
+}
+
+/* ==== HERO ==== */
+.hero {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/7/77/Manzanares_Caldas_Colombia.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin: 15px 0;
+}
+
+.btn {
+  background: #ffd166;
+  color: #222;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #ffe066;
+}
+
+/* ==== SECCIONES ==== */
+.seccion {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.seccion h2 {
+  color: #0a9396;
+  border-bottom: 3px solid #94d2bd;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* ==== TARJETAS ==== */
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.tarjetas article {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+.tarjetas article:hover {
+  transform: scale(1.03);
+}
+
+.tarjetas img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ==== GALERÍA ==== */
+.galeria .imagenes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* ==== FORMULARIO ==== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #0a9396;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #94d2bd;
+}
+
+/* ==== REDES ==== */
+.redes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.redes a {
+  background: #005f73;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.redes a:hover {
+  background: #0a9396;
+}
+
+/* ==== FOOTER ==== */
+footer {
+  background: #001219;
+  color: #bbb;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+
